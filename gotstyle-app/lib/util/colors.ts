@@ -1,0 +1,16 @@
+export const colors = {
+  white: "#ffffff",
+  // black: "#000000",
+  dark: "#252525",
+  blue: "#279EFF",
+  yellow: "#EBE76C",
+  red: "#F31559",
+  green: "#03C988",
+  primary: "#36bda7",
+  light: "#F5F5F5",
+  black: "#040506",
+  pink_grad: "#DEBDFF",
+  red_grad: "#FF00AA",
+  yellow_grad: "#FAFF00",
+  red2_grad: "#176B87",
+};

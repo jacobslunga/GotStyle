@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "GotStyle",
+    "slug": "gotstyle-app",
+    "version": "1.1.3",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "gotstyle",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.gotstyle.app",
+      "supportsTablet": false,
+      "usesAppleSignIn": true,
+      "infoPlist": {
+        "NSUserNotificationUsageDescription": "We use notifications to remind you to look fabulous every day!"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "services": {
+      "apple": {
+        "services.apple.identifier": "Z47R5NUXKW"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e2bd43ba-f36c-49a8-ac9f-9ab04ee14c41"
+      }
+    },
+    "plugins": [
+      "expo-apple-authentication",
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow GotStyle to access your photos.",
+          "savePhotosPermission": "Allow GotStyle to save photos.",
+          "isAccessMediaLocationEnabled": true
+        }
+      ],
+      "expo-localization"
+    ]
+  }
+}

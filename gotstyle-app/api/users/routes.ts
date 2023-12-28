@@ -1,0 +1,27 @@
+export const USER_ROUTES = {
+  LOGIN: "/users/auth/login",
+  APPLE_AUTH: "/users/auth/apple",
+  SIGNUP: "/users/auth/signup",
+  REFRESH_TOKEN: "/users/auth/refresh-token",
+
+  GET_USER: (userId: string) => `/users/${userId}`,
+  GET_FOLLOWING_OUTFITS: (userId: string) =>
+    `/users/${userId}/following/outfits`,
+  GET_HAS_POSTED_TODAY: "/users/has-posted-today",
+  GET_UNREAD_NOTIFICATIONS: "/users/unread-notifications",
+  GET_READ_NOTIFICATIONS: "/users/read-notifications",
+  GET_ME: "/users/me",
+  GET_AVAILABLE_USERNAMES: "/users/available-username",
+  GET_AVAILABLE_EMAILS: "/users/available-email",
+  SEARCH_USERS: (query: string) => `/users/search/${query}`,
+  READ_NOTIFICATIONS: "/users/me/read-notifications",
+  READ_NOTIFICATION: `/users/me/read-notification`,
+  BASIC_SETTINGS: "/users/me/basic-settings",
+  UPDATE_ME: "/users/me",
+  UPDATE_BASIC_SETTINGS: "/users/me/basic-settings",
+  FOLLOW_USER: "/users/follow",
+  UNFOLLOW_USER: "/users/unfollow",
+  REJECT_FOLLOW_REQUEST: "/users/reject-follow",
+  ACCEPT_FOLLOW_REQUEST: "/users/accept-follow",
+  ADD_EXPO_PUSH_TOKEN: "/users/me/expo-push-token",
+};

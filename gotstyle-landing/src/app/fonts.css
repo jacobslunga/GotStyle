@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Logo";
+  src: url("/fonts/BT-BeauSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Bas Bold";
+  src: url("/fonts/BT-BeauSans-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Bas Regular";
+  src: url("/fonts/BT-BeauSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Bas Med";
+  src: url("/fonts/BT-BeauSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Bas Semi";
+  src: url("/fonts/BT-BeauSans-Bold.ttf");
+}
